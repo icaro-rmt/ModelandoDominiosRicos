@@ -1,0 +1,94 @@
+# Ignore Visual Studio temporary files, build results, and
+# popular Visual Studio extensions.
+.vscode/
+.vscode/*
+.vs/
+.vs/*
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (Mono Auto Generated)
+mono_crash.*
+
+# Mono auto generated files
+mono_crash.*
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+[Ll]og*/
+[Ll]ogs*/
+
+# Uncomment if you have tasks that create the project's static files here
+# node_modules/
+
+# Visual Studio Code's settings directory
+.vscode/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Enable "code coverage" results
+TestResults/
+!.travis.yml
+
+# MSTest test Results
+TestResults
+
+# NUNIT
+*.VisualState.xml
+TestResult.xml
+
+# Build and release folders
+bin/
+obj/
+
+# Don't track Xamarin generated files
+[Dd]ebug/
+[Rr]elease/
+bin/
+obj/
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+$RECYCLE.BIN/
+
+# Azure DevOps
+.vs/
+.vscode/
+.idea/
+_ReSharper.Caches/
+node_modules/
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
