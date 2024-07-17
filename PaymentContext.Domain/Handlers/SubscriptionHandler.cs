@@ -1,5 +1,3 @@
-using System.Diagnostics.Contracts;
-using System.Net.Mail;
 using Flunt.Notifications;
 using PaymentContext.Domain.Commands;
 using PaymentContext.Domain.Entities;
@@ -73,6 +71,10 @@ namespace PaymentContext.Domain.Handlers
 
             // Group Validations
             AddNotifications(name, document, email, address, student, subscription, payment);
+
+            // Check Notifications
+            if (!IsValid)
+                return new CommandResult(false, "It was not possible to register the subscription");
 
             // Save information
             _studentRepository.CreateSubscription(student);

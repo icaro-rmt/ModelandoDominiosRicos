@@ -37,7 +37,6 @@ namespace PaymentContext.Domain.Commands
                 .IsNotEmpty(FirstName, "Name.FirstName", "Invalid FirstName")
                 .IsNotEmpty(LastName, "Name.LastName", "Invalid LastName")
             );
-            throw new NotImplementedException();
         }
     }
 }
