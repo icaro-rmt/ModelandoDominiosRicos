@@ -17,7 +17,6 @@ namespace PaymentContext.Tests.Entities
 
 
         public StudentTests()
-
         {
             _name = new Name("Bruce", "Wayne");
             _document = new Document("77584571000", EDocumentType.CPF);
